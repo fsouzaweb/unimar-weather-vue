@@ -2,7 +2,6 @@
   <div class="weather-container">
     <h1>Previsão do Tempo</h1>
     <input v-model="city" placeholder="Digite a cidade e pressione Enter" class="weather-input" @keyup.enter="getWeather" />
-    <button @click="getWeather" class="weather-button">Buscar Clima</button>
 
     <p v-if="inputError" class="input-error">{{ inputError }}</p>
     <div v-if="loading" class="loading">Carregando...</div>
@@ -72,21 +71,6 @@ export default {
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
-}
-
-.weather-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #568bc4;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.weather-button:hover {
-  background-color: #0056b3;
 }
 
 .loading,
