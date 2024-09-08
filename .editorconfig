@@ -1,0 +1,32 @@
+# EditorConfig is awesome: https://EditorConfig.org
+root = true
+
+# EditorConfig ajuda a manter estilos consistentes de codificação entre diferentes editores e IDEs
+
+# Configurações gerais aplicadas a todos os arquivos
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Regras específicas para arquivos JavaScript
+[*.js]
+indent_size = 2
+max_line_length = 80
+
+# Regras específicas para arquivos Vue.js
+[*.vue]
+indent_size = 2
+max_line_length = 120
+
+# Regras específicas para arquivos HTML
+[*.html]
+indent_size = 2
+max_line_length = 120
+
+# Regras específicas para arquivos JSON
+[*.json]
+indent_size = 2
