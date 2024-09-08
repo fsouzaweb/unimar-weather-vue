@@ -80,7 +80,11 @@ Siga os passos abaixo:
 
 ## Captura de Tela
 
-Aqui está um exemplo da interface da aplicação:
+Tela Home é a página inicial:
+
+![Weather App](src/assets/home.png)
+
+Aqui um exemplo da interface da aplicação funcionando:
 
 ![Weather App](src/assets/screenshot.png)
 
