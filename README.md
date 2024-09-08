@@ -1,7 +1,11 @@
+# Weather App
 
-# Weather App - Projeto FullStack Pós-Graduação Unimar
+<img src="src/assets/weather.png" alt="Weather Icon" height="150px">
 
-Este é um projeto desenvolvido como parte do curso de pós-graduação FullStack na **Universidade de Marília (Unimar)**. O objetivo do projeto é criar uma aplicação web de previsão do tempo utilizando tecnologias modernas de frontend, como **Vue.js**, juntamente com **axios**, **Pinia** para gerenciamento de estado, e **Vue Router** para navegação. A aplicação consome dados de uma API gratuita de clima para exibir a previsão do tempo de qualquer cidade.
+Este é um projeto desenvolvido como parte do curso de pós-graduação FullStack na **Universidade de Marília (Unimar)**.
+O objetivo do projeto é criar uma aplicação web de previsão do tempo utilizando tecnologias modernas de frontend, como **Vue.js**, juntamente com **Axios**, **Pinia** para gerenciamento de estado, e **Vue Router** para navegação.
+
+A aplicação consome dados de uma API gratuita de clima para exibir a previsão do tempo de qualquer cidade.
 
 ## Tecnologias Utilizadas
 
@@ -22,7 +26,7 @@ Este é um projeto desenvolvido como parte do curso de pós-graduação FullStac
 
 ### Pré-requisitos
 
-Antes de começar, certifique-se de ter o **Node.js** e o **npm** instalados em sua máquina. 
+Antes de começar, certifique-se de ter o **Node.js** e o **npm** instalados em sua máquina.
 
 ### Passos para Rodar o Projeto
 
@@ -57,7 +61,8 @@ Este projeto utiliza a API [OpenWeatherMap](https://openweathermap.org/) para bu
 
 ### Utilizando Variáveis de Ambiente
 
-Para garantir a segurança e flexibilidade na gestão de sua chave de API, recomendamos o uso de variáveis de ambiente. Siga os passos abaixo:
+Para garantir a segurança e flexibilidade na gestão de sua chave de API, recomendamos o uso de variáveis de ambiente.
+Siga os passos abaixo:
 
 1. Crie um arquivo `.env` na raiz do seu projeto e adicione a seguinte linha com sua chave de API:
    ```bash
@@ -79,10 +84,10 @@ Aqui está um exemplo da interface da aplicação:
 
 ![Weather App](src/assets/screenshot.png)
 
-
 ## Autor
 
-Desenvolvido por [Fabiano Souza](https://github.com/fsouzaweb) como parte do curso de Pós-Graduação FullStack na **Unimar**.
+Desenvolvido por [Fabiano Souza](https://github.com/fsouzaweb) como parte do curso de Pós-Graduação FullStack na [**Unimar**](https://oficial.unimar.br/pos/desenvolvimento-full-stack/).
+
 
 ## GitHub
 
